@@ -29,7 +29,7 @@ public class Sales extends Employee {
     //挨拶メソッド、スーパークラスのメソッドをオーバーライド
     public void greeting() {
         super.setVitality(getVitality() - 10);
-        System.out.println(super.getDivisionName() + "の皆さん、おはようござい。");
+        System.out.println(super.getDivisionName() + "の皆さん、おはようござい★。");
     }
 
     @Override
