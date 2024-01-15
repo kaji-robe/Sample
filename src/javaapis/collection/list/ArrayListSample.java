@@ -1,6 +1,5 @@
-///Gitの同期テスト
-//Gitの同期テスト
-//Gitの同期テスト
+//Gitの同期テスト。自宅で更新済。
+//Gitの同期テスト。自宅で更新済。
 
 package javaapis.collection.list;
 
