@@ -21,7 +21,7 @@ public class Sales extends Employee {
     // 報告するメソッド
     public void report() {
         super.setVitality(super.getVitality() - 10);
-        System.out.println("今日は10件アポイント取りました。" + appointment +"です。");
+        System.out.println("アポイント取りました。アポ先は" + appointment +"です。");
     }
 
 
@@ -29,7 +29,7 @@ public class Sales extends Employee {
     //挨拶メソッド、スーパークラスのメソッドをオーバーライド
     public void greeting() {
         super.setVitality(getVitality() - 10);
-        System.out.println(super.getDivisionName() + "オバラ、の皆さん、おっはーーー。");
+        System.out.println(super.getDivisionName() + "の皆さん、おはようござい。");
     }
 
     @Override
@@ -38,7 +38,7 @@ public class Sales extends Employee {
         super.setVitality(getVitality() - 10);
         System.out.println("私の名前は" + super.getEmployeeName() + "です");
         System.out.println("所属部署は" + super.getDivisionName() + "です");
-        System.out.println("オバラ今日のアポイント先は" + appointment + "です");
+        System.out.println("今日のアポイント先は" + appointment + "です");
     }
 
     public String getAppointment() {
