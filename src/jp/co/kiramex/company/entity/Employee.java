@@ -2,20 +2,21 @@ package jp.co.kiramex.company.entity;
 
 public class Employee {
     // フィールド
-    private int employeeId;// 社員ID（← ここを追記）
+    private int employeeId;// 社員ID（これを追記）
     private String employeeName;// 社員名
     private String divisionName;// 部署名
     private int vitality;// 体力
 
-    // コンストラクタ
+    // コンストラクタ、念のため
     public Employee() {
     }
 
-    // 引数ありコンストラクタ
-//    public  Employee(String employeeName, String divisionName, int vitality) {
+    //引数ありコンストラクタ
+    //public Employee(String employeeName, String divisionName, int vitality) {
+
     public Employee(int employeeId, String employeeName, String divisionName, int vitality) {
-//        System.out.println("初期化時に引数ありコンストラクタが呼ばれました");
-        this.employeeId = employeeId; // （← ここを追記）
+    //System.out.println("初期化時に引数ありコンストラクタが呼ばれました");
+        this.employeeId = employeeId; // （これを追記）
         this.employeeName = employeeName;
         this.divisionName = divisionName;
         this.vitality = vitality;
