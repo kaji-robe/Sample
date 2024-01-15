@@ -1,3 +1,7 @@
+///Gitの同期テスト
+//Gitの同期テスト
+//Gitの同期テスト
+
 package javaapis.collection.list;
 
 import java.util.ArrayList;

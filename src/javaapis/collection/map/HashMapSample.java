@@ -1,3 +1,6 @@
+//Gitの同期テスト
+//Gitの同期テスト
+
 package javaapis.collection.map;
 
 import java.util.HashMap;
