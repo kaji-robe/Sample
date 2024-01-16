@@ -21,6 +21,8 @@ public class UseSales {
 
         // 体力表示
         sales.showVitality();
+
+
     }
 
 }
